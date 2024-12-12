@@ -1,0 +1,107 @@
+<html lang="fr"> 
+<head> 
+    <title>consomation énergétique</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+</head>
+<body>
+    <header>
+        <h1>Consomation énergétique</h1>
+    </header>
+    <main>
+        <section id="dashbord" class="base">
+            <h2>Tableau de bord</h2>
+            <div class="stats-base">
+                <div class="representation">
+                    <h3>Consommation total</h3>
+                    <p><span id="total-consommation">0</span>Wh</p>
+                </div>
+                <div class="representation">
+                    <h3>Moyenne quotidienne</h3>
+                    <p><span id="cons-moyenne-quotidienne">0</span>Wh</p>
+                </div>
+            </div>
+            <canvas id="consumption-chart"></canvas>
+        </section>
+        <section id="filters" class="base">
+            <h2>Filtre de période avec graphique</h2>
+            <div class="filters-base">
+                <label for="periode">Période : </label>
+                <select id="periode">
+                    <option value="day">Jour</option>
+                    <option value="week">Semaine</option>
+                    <option value="month">Mois</option>
+                    <option value="years">Année</option>
+                </select>
+                
+                <label for="graphique">Graphique : </label>
+                <select id="graphique">
+                    <option value="bar">Barre</option>
+                    <option value="line">Ligne</option>
+                    <option value="circle">Cercle</option>
+                </select>
+            </div>
+        </section>
+        <section id="add-data" class="base">
+            <h2>Ajouter la consommation </h2>
+            <form id="consumption-form">
+                <label for="date">Date :</label>
+                <input type="date" id="date" class="input">
+
+                <label for="object">Objet :</label>
+                <input type="text" id="object" class="input">
+
+                <label for="consumption">Consommation(Wh) : </label>
+                <input type="number" id="consumption" class="input">
+
+                <button type="submit">Ajouter</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

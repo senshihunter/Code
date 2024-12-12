@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color:rgb(5, 217, 255);
+    color:#000;
+}
+header {
+     color: #000;
+     background-color: #ffffff;
+     text-align: center;  
+}
+main {
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+    font-size:40px;
+}
+.base {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+.stats-base {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+.representation {
+    text-align: center;
+
+}
+#consumption-chart{
+    max-height: 200px;
+}
+.filters-base {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
